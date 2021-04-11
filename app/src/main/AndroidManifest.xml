@@ -9,7 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Exercicios">
-        <activity android:name=".Ex09DetalheActivity"></activity>
+        <activity android:name=".Ex10Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ex06Activity"
+            android:label="@string/title_activity_ex06"
+            android:theme="@style/Theme.Exercicios.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ex09DetalheActivity" />
         <activity android:name=".Ex09Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,13 +77,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Ex01Activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Ex01Activity"></activity>
     </application>
 
 </manifest>
