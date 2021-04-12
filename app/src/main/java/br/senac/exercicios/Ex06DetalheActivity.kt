@@ -1,6 +1,5 @@
 package br.senac.exercicios
 
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.senac.exercicios.databinding.ActivityEx06DetalheBinding

@@ -25,6 +25,7 @@
         <activity android:name=".Ex09Activity"></activity>
         <activity android:name=".Ex08Activity"></activity>
         <activity android:name=".Ex07DetalheActivity" />
+        <activity android:name=".Ex06DetalheActivity" />
         <activity android:name=".Ex07Activity"></activity>
         <activity android:name=".Ex05Activity"></activity>
         <activity android:name=".Ex04Activity"></activity>
