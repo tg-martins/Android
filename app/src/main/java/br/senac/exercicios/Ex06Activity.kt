@@ -1,20 +1,8 @@
 package br.senac.exercicios
 
-<<<<<<< HEAD
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
-import net.objecthunter.exp4j.ExpressionBuilder
-
-class Ex06Activity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_ex06)
-=======
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import br.senac.exercicios.databinding.ActivityEx06Binding
 
 class Ex06Activity : AppCompatActivity() {
@@ -50,6 +38,5 @@ class Ex06Activity : AppCompatActivity() {
         var intent = Intent(this, Ex06DetalheActivity::class.java)
         intent.putExtra("img",id)
         startActivity(intent)
->>>>>>> db6fac921886e0abea44e08c471d109b9ee47646
     }
 }
